@@ -1,0 +1,33 @@
+{
+  "name": "practice-nerds",
+  "version": "1.0.0",
+  "description": "Вёрстка для портфолио",
+  "scripts": {
+    "editorconfig": "editorconfig-cli",
+    "stylelint": "stylelint \"source/less/**/*.less\" --syntax less",
+    "test": "npm run editorconfig && npm run stylelint",
+    "build": "gulp styles",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poniyur/practice-nerds.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poniyur/practice-nerds/issues"
+  },
+  "homepage": "https://github.com/poniyur/practice-nerds#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^5.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-htmlacademy": "^0.1.10"
+  },
+  "dependencies": {}
+}
